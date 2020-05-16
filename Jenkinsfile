@@ -12,7 +12,7 @@ pipeline {
             }
         }
 
-        stage ('Deploy') {
+        stage ('Integration') {
             steps {
 
                 withCredentials([[$class          : 'UsernamePasswordMultiBinding',
